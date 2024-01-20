@@ -35,7 +35,7 @@ class Rectangle(Base):
 
     @width.setter
     def width(self, value):
-        if type (value) != int:
+        if type(value) != int:
             raise TypeError("width must be an integer")
         if value <= 0:
             raise ValueError("width must be > 0")
@@ -48,7 +48,7 @@ class Rectangle(Base):
 
     @height.setter
     def height(self, value):
-        if type (value) != int:
+        if type(value) != int:
             raise TypeError("height must be an integer")
         if value <= 0:
             raise ValueError("height must be > 0")
@@ -83,3 +83,15 @@ class Rectangle(Base):
     def area(self):
         """Return the area of the Rectangle."""
         return self.width * self.height
+
+    def display(self):
+        """Print the rectangle using the '#" character"""
+        if self.width == 0 or self.height == 0:
+            print("")
+            return
+
+        [print("")for y in range(self.y)]
+        for h in range(self.height):
+            [print(" ", end="") for x in range(self.x)]
+            [print("#", end="") for w in range(self.width)]
+            print("")
