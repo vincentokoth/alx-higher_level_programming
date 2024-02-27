@@ -1,5 +1,5 @@
 # Python - if/else, loops, functions.
-## Tasks 
+## Tasks :spiral_notepad: 
 #### 0. Positive anything is better than negative nothing
 0-positive_or_negative.py: This program will assign a random signed number to the variable number each time it is executed.
 * The variable number will store a different value every time you will run this program
