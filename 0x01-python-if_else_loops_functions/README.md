@@ -20,3 +20,8 @@
 		* if the last digit is 0: the string and is 0
 		* if the last digit is less than 6 and not 0: the string and is less than 6 and not 0
 	* followed by a new line
+
+[2-print_alphabet.py](https://github.com/vincentokoth/alx-higher_level_programming/blob/master/0x01-python-if_else_loops_functions/2-print_alphabet.py):A program that prints the ASCII alphabet, in lowercase, not followed by a new line:
+* Using one print function with string format
+* Using only use one loop in your code
+* Without storing any characters in a variable or importing any modules
