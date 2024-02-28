@@ -3,7 +3,8 @@ import random
 number = random.randint(-10000, 10000)
 
 if number < 0:
-    lastDigit = -(-number % 10) # Ensure the last digit is negative for negative numbers
+    lastDigit = -(-number % 10)  """ Ensure the last digit is negative
+                                     for negative numbers """
 else:
     lastDigit = number % 10
 
