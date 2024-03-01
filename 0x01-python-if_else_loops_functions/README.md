@@ -22,7 +22,7 @@
 	* followed by a new line
 
 [2-print_alphabet.py](https://github.com/vincentokoth/alx-higher_level_programming/blob/master/0x01-python-if_else_loops_functions/2-print_alphabet.py): A program that prints the ASCII alphabet, in lowercase, not followed by a new line:
-* using only one <span style="color:red; background-color:lightgrey;">print</span> function with string format
+* using only one <font color="red">print</font> function with string format
 * Using only use one loop
 * Without storing any characters in a variable or importing any modules
 
