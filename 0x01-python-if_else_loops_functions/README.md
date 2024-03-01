@@ -22,11 +22,12 @@
 	* followed by a new line
 
 [2-print_alphabet.py](https://github.com/vincentokoth/alx-higher_level_programming/blob/master/0x01-python-if_else_loops_functions/2-print_alphabet.py): A program that prints the ASCII alphabet, in lowercase, not followed by a new line:
-* Using one print function with string format
+* using only one <span style="color:red; background-color:lightgrey;">print</span> function with string format
 * Using only use one loop
 * Without storing any characters in a variable or importing any modules
 
 [3-print_alphabt.py](https://github.com/vincentokoth/alx-higher_level_programming/blob/master/0x01-python-if_else_loops_functions/3-print_alphabt.py): A program that prints the ASCII alphabet, in lowercase, not followed by a new line.
-* Printing all the letters except q and e
+* Printing all the letters except <span style="color:red; background-color:lightgrey;">q</span> and <span style="color:red; background-color:lightgrey;">e</span>
+* using only one <span style="color:red; background-color:lightgrey;">print</span> function with string format
 * Using only one loop
 * Without storing any character in a variable or importing any module
