@@ -31,3 +31,8 @@
 * using only one `print` function with string format
 * Using only one loop
 * Without storing any character in a variable or importing any module
+
+[4-print_hexa.py](./4-print_hexa.py): A program that prints all numbers from `0` to `98` in decimal and in hexadecimal.
+* Using only one `print' function with string format
+* Using only use one loop in your code
+* Without storing numbers or strings in a variable or importing any module
