@@ -4,15 +4,16 @@
 
 * [tests](./tests): Folder containing test files.
 
-## Function Prototypes:
+## Function Prototypes: :nut_and_bolt:
 
 Below are prototypes of functions used in the project.
 
 | File                        | Prototype                   |
 | --------------------------- | --------------------------- |
 | `7-islower.py`              | `def islower(c):`           |
+| `8-uppercase.py`            | `def uppercase(str):`       |
 
-## Tasks :spiral_notepad:
+## Tasks: :spiral_notepad:
  
 #### 0. Positive anything is better than negative nothing
 [0-positive_or_negative.py](./0-positive_or_negative.py): This program will assign a random signed number to the variable `number` each time it is executed.
