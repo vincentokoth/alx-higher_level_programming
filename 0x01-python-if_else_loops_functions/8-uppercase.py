@@ -8,7 +8,7 @@ def uppercase(str):
     uppercase_str = ""
 
     if not str:  # if the string is empty
-        error_mesage = "Input string cannot be empty"
+        error_message = "Input string cannot be empty"
         print("stderr: {}".format(error_message))
 
     for char in str:
