@@ -8,10 +8,13 @@ def uppercase(str):
     uppercase_str = ""
 
     if not str:  # if the string is empty
-        raise ValueError("input string cannot be empty")
+        error_mesage = "Input string cannot be empty"
+        print("stderr: {}".format(error_message))
+
     for char in str:
         if 'a' <= char <= 'z':  # check if the char is lowercase
             uppercase_str += chr(ord(char) - 32)
         else:
             uppercase_str += char
+
     print("{}".format(uppercase_str))
