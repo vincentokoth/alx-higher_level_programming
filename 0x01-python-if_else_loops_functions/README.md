@@ -1,5 +1,19 @@
 # Python - if/else, loops, functions.
-## Tasks :spiral_notepad: 
+
+## Tests:
+
+* [tests](./tests): Folder containing test files.
+
+## Function Prototypes:
+
+Below are prototypes of functions used in the project.
+
+| File                        | Prototype                   |
+| --------------------------- | --------------------------- |
+| `7-islower.py`              | `def islower(c):`           |
+
+## Tasks :spiral_notepad:
+ 
 #### 0. Positive anything is better than negative nothing
 [0-positive_or_negative.py](./0-positive_or_negative.py): This program will assign a random signed number to the variable `number` each time it is executed.
 * The `variable` number will store a different value every time you will run this program
@@ -61,15 +75,3 @@
 * Returns True if c is lowercase
 * Returns False otherwise
 * Without importing any module or using str.upper() and str.isupper()
-
-## Tests:
-
-* [tests](./tests): Folder containing test files.
-
-## Function Prototypes:
-
-Below are prototypes of functions used in the project.
-
-| File                        | Prototype                   |
-| --------------------------- | --------------------------- |
-| `7-islower.py`              | `def islower(c):`           |
