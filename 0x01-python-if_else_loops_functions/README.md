@@ -56,3 +56,20 @@
 	* can only use no more than 3 print functions with string format
 	* can only use no more than 2 loops in your code
 	* cannot store numbers or strings in a variable or import any module
+
+[7-islower.py](./7-islower.py): A function that checks for lowercase character.
+* Returns True if c is lowercase
+* Returns False otherwise
+* Without importing any module or using str.upper() and str.isupper()
+
+## Tests:
+
+* [tests](./tests): Folder containing test files.
+
+## Function Prototypes:
+
+Below are prototypes of functions used in the project.
+
+| File                        | Prototype                   |
+| --------------------------- | --------------------------- |
+| `7-islower.py`              | `def islower(c):`           |
