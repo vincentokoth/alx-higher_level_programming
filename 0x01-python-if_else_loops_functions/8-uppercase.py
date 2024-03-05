@@ -5,11 +5,12 @@ def uppercase(str):
        their ASCII codes by subtracting ASCII value difference between
        the uppercase and lowercase letters.
     """
-    uppercase_str = ""
 
     if not str:  # if the string is empty
         error_message = "Input string cannot be empty"
         print("stderr: {}".format(error_message))
+
+    uppercase_str = ""
 
     for char in str:
         if 'a' <= char <= 'z':  # check if the char is lowercase
