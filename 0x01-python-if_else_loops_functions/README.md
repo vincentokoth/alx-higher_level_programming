@@ -13,7 +13,8 @@ Below are prototypes of functions used in the project.
 | `7-islower.py`              | `def islower(c):`                  |
 | `8-uppercase.py`            | `def uppercase(str):`              |
 | `9-print_last_digit.py`     | `def print_last_digit(number):`    |
-| `10-add.py`                 | `def add(a, b):`                   | 
+| `10-add.py`                 | `def add(a, b):`                   |
+| `11-pow.py`                 |  `def pow(a, b):`                  |
 
 ## Tasks: :spiral_notepad:
  
@@ -90,4 +91,8 @@ Below are prototypes of functions used in the project.
 
 [10-add.py](./10-add.py): A function that adds two integers and returns the result.
 * Returns the value of a + b
-* Without importing any module
+* Doesn't import any module
+
+[11-pow.py](./11-pow.py): A function that computes a to the power of b and return the value.
+* Returns the value of a ^ b
+* Doesn't import any module
