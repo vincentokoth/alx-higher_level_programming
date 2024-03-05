@@ -8,10 +8,11 @@
 
 Below are prototypes of functions used in the project.
 
-| File                        | Prototype                   |
-| --------------------------- | --------------------------- |
-| `7-islower.py`              | `def islower(c):`           |
-| `8-uppercase.py`            | `def uppercase(str):`       |
+| File                        | Prototype                          |
+| --------------------------- | ---------------------------------- |
+| `7-islower.py`              | `def islower(c):`                  |
+| `8-uppercase.py`            | `def uppercase(str):`              |
+| `9-print_last_digit.py`     | `def print_last_digit(number):`    |
 
 ## Tasks: :spiral_notepad:
  
@@ -76,3 +77,12 @@ Below are prototypes of functions used in the project.
 * Returns True if c is lowercase
 * Returns False otherwise
 * Without importing any module or using str.upper() and str.isupper()
+
+[8-uppercase.py](./8-uppercase.py): A function that prints a string in uppercase followed by a new line.
+* Using no more than 2 print functions with string format
+* using only one loop
+* Without importing any module or using str.upper() and str.isupper()
+
+[9-print_last_digit.py](./9-print_last_digit.py): A function that prints the last digit of a number.
+* Returns the value of the last digit
+* Doesn't import any module
