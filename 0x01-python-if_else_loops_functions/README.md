@@ -13,6 +13,7 @@ Below are prototypes of functions used in the project.
 | `7-islower.py`              | `def islower(c):`                  |
 | `8-uppercase.py`            | `def uppercase(str):`              |
 | `9-print_last_digit.py`     | `def print_last_digit(number):`    |
+| `10-add.py`                 | `def add(a, b):`                   | 
 
 ## Tasks: :spiral_notepad:
  
@@ -86,3 +87,7 @@ Below are prototypes of functions used in the project.
 [9-print_last_digit.py](./9-print_last_digit.py): A function that prints the last digit of a number.
 * Returns the value of the last digit
 * Doesn't import any module
+
+[10-add.py](./10-add.py): A function that adds two integers and returns the result.
+* Returns the value of a + b
+* Without importing any module
