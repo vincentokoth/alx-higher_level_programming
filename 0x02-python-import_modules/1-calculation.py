@@ -3,11 +3,12 @@
 
 if __name__ == "__main__":
     """Does some maths and prints the results"""
-    from calculator_1 import add, sub, mul, div
+    import calculator_1
 
     a = 10
     b = 5
-    print("10 + 5 = {}".format(add(a, b)))
-    print("10 - 5 = {}".format(sub(a, b)))
-    print("10 * 5 = {}".format(mul(a, b)))
-    print("10 / 5 = {}".format(div(a, b)))
+
+    print("{} + {} = {}".format(a, b, calculator_1.add(a, b)))
+    print("{} - {} = {}".format(a, b, calculator_1.sub(a, b)))
+    print("{} * {} = {}".format(a, b, calculator_1.mul(a, b)))
+    print("{} / {} = {}".format(a, b, calculator_1.div(a, b)))
